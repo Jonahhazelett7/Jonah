@@ -1,0 +1,10 @@
+{
+    "temperature": 0,
+    "messages": [
+        {"role": "user", "content": "I need you create JSONL file for fine-tuning with three movies related. Use the provided information about three movies list shows 'Sound of Metal', 'CODA', and 'Sweet Nothing in my Ear' to create different way prompt and responses."},
+        {"role": "assistant", "content": "{\"messages\": [{\"role\": \"user\", \"content\": \"Can you tell me about the movie 'Sound of Metal'?\"}, {\"role\": \"assistant\", \"content\": \"Absolutely! 'Sound of Metal' is a drama/music film directed by Darius Marder, released in 2019. It follows the story of a heavy-metal drummer whose life is turned upside down when he begins to lose his hearing. The film stars Riz Ahmed, Olivia Cooke, and Paul Raci.\"}]}\n{\"messages\": [{\"role\": \"user\", \"content\": \"What is 'CODA' about?\"}, {\"role\": \"assistant\", \"content\": \"'CODA' is a drama/music film directed by Sian Heder, released in 2021. It centers around a hearing daughter of deaf adults who struggles to balance her passion for singing with her family's reliance on her for communication. The film features Emilia Jones, Marlee Matlin, and Troy Kotsur.\"}]}\n{\"messages\": [{\"role\": \"user\", \"content\": \"Tell me about 'Sweet Nothing in my Ear'.\"}, {\"role\": \"assistant\", \"content\": \"'Sweet Nothing in my Ear' is a drama film directed by Joseph Sargent, released in 2008. It explores the tensions faced by a married couple when deciding whether to get their deaf son a cochlear implant. The movie stars Jeff Daniels and Marlee Matlin.\"}]}" },
+
+        {"role": "user", "content": "Here is information about these movies: {{info}}. Provide {{n}} entries including role and content based on this data in JSONL format." }
+    
+    ]
+}
